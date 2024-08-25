@@ -29,7 +29,64 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <17 18>;
+        };
+
+        combo_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
+
+        combo_toggle_numpad {
+            bindings = <&tog 3>;
+            key-positions = <27 28 29>;
+        };
+
+        combo_tab_left {
+            bindings = <&kp LC(PG_UP)>;
+            key-positions = <27 28>;
+            layers = <1>;
+        };
+
+        combo_tab_right {
+            bindings = <&kp LC(PAGE_DOWN)>;
+            key-positions = <28 29>;
+        };
+
+        combo_accent_acute {
+            bindings = <&kp LC(SQT)>;
+            key-positions = <6 7>;
+            timeout-ms = <200>;
+        };
+
+        combo_accent_grave {
+            bindings = <&kp LC(GRAVE)>;
+            key-positions = <7 8>;
+            timeout-ms = <200>;
+        };
+
+        combo_accent_dots {
+            bindings = <&kp LC(COLON)>;
+            key-positions = <6 8>;
+            timeout-ms = <200>;
+        };
+
+        combo_accent_round {
+            bindings = <&kp LC(AT_SIGN)>;
+            key-positions = <6 7 8>;
+            timeout-ms = <200>;
+        };
+    };
 
     behaviors {
         homerow_l: homerow_l {
