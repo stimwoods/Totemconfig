@@ -181,7 +181,7 @@
             bindings = <
          &kp Q              &kp W              &kp F               &kp P               &kp B                &kp J                  &kp L               &kp U               &kp Y              &kp APOS
          &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G                &kp M                  &homerow_r RCTRL N  &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
-&kp TAB  &kp Z              &kp X              &kp C               &kp H               &kp V                &kp K                  &kp H               &coma               &dot               &kp UNDERSCORE     &kp MINUS
+&kp TAB  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                  &kp H               &coma               &dot               &kp UNDERSCORE     &kp MINUS
                                                &layer_ht 4 TAB     &lt 3 ESCAPE        &layer_ht 1 SPACE    &layer_ht 2 BACKSPACE  &ht RSHFT ENTER     &layer_ht 4 DELETE
             >;
         };
