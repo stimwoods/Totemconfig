@@ -155,6 +155,25 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        underscore: underscore {
+            compatible = "zmk,behavior-mod-morph";
+            label = "UNDERSCORE";
+            bindings = <&kp UNDERSCORE>, <&kp MINUS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        layer_ht_sk: layer_ht_sk {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_HT_SK";
+            bindings = <&mo>, <&sk>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
     };
 
     keymap {
@@ -179,10 +198,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q              &kp W              &kp F               &kp P               &kp B                &kp J                  &kp L               &kp U               &kp Y              &kp APOS
-         &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G                &kp M                  &homerow_r RCTRL N  &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
-&kp TAB  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                  &kp H               &coma               &dot               &kp UNDERSCORE     &kp MINUS
-                                               &layer_ht 4 TAB     &lt 3 ESCAPE        &layer_ht 1 SPACE    &layer_ht 2 BACKSPACE  &ht RSHFT ENTER     &layer_ht 4 DELETE
+            &kp Q              &kp W              &kp F               &kp P               &kp B                &kp J                 &kp L                &kp U               &kp Y              &kp APOS
+            &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G                &kp M                 &homerow_r RCTRL N   &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
+&kp ESCAPE  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                 &kp H                &coma               &dot               &underscore        &kp ENTER
+                                                  &layer_ht 4 ESCAPE  &lt 3 TAB           &layer_ht 1 SPACE    &layer_ht_sk 2 RSHFT  &ht RSHFT BACKSPACE  &layer_ht 4 DELETE
             >;
         };
 
