@@ -212,10 +212,10 @@
 
         nav {
             bindings = <
-        &kp N1     &kp N2     &kp N3     &kp N4     &kp N5        &kp N6    &kp N7     &kp N8     &kp N9     &kp N0
-        &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &caps_word    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp RET
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp CAPS      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp DEL  &trans
-                              &trans     &trans     &trans        &trans    &trans     &trans
+        &kp N1     &kp N2     &kp N3     &kp N4     &kp N5        &kp N6         &kp N7     &kp N8     &kp N9     &kp N0
+        &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &caps_word    &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT  &kp RET
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp CAPS      &kp HOME       &kp PG_DN  &kp PG_UP  &kp END    &trans   &trans
+                              &trans     &trans     &trans        &kp BACKSPACE  &trans     &trans
             >;
         };
 
@@ -230,10 +230,10 @@
 
         num {
             bindings = <
-        &trans  &trans  &trans  &trans  &kp KP_NUM    &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
-        &trans  &trans  &trans  &trans  &trans        &kp TAB    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RET
-&trans  &trans  &trans  &trans  &trans  &trans        &kp FSLH   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK  &trans
-                        &trans  &trans  &trans        &trans     &kp KP_N0        &kp DOT
+        &trans  &trans  &trans  &trans  &kp KP_NUM    &kp MINUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
+        &trans  &trans  &trans  &trans  &trans        &kp TAB        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RET
+&trans  &trans  &trans  &trans  &trans  &trans        &kp FSLH       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK  &trans
+                        &trans  &trans  &trans        &kp BACKSPACE  &kp KP_N0        &kp DOT
             >;
         };
 
