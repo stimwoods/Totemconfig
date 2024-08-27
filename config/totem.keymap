@@ -204,10 +204,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q              &kp W              &kp F               &kp P               &kp B                &kp J                 &kp L                &kp U               &kp Y              &kp APOS
-            &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G                &kp M                 &homerow_r RCTRL N   &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
-&kp ESCAPE  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                 &kp H                &coma               &dot               &underscore        &kp ENTER
-                                                  &layer_ht 4 ESCAPE  &layer_ht 3 TAB     &layer_ht 1 SPACE    &layer_ht_sk 2 RSHFT  &ht RSHFT BACKSPACE  &layer_ht 4 DELETE
+            &kp Q              &kp W              &kp F               &kp P               &kp B                &kp J                 &kp L               &kp U               &kp Y              &kp APOS
+            &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G                &kp M                 &homerow_r RCTRL N  &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
+&kp ESCAPE  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                 &kp H               &coma               &dot               &underscore        &kp ENTER
+                                                  &layer_ht 5 ESCAPE  &layer_ht 3 TAB     &layer_ht 1 SPACE    &layer_ht_sk 2 RSHFT  &layer_ht 4 ENTER   &layer_ht 5 DELETE
             >;
         };
 
@@ -240,9 +240,6 @@
 
         fun {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-
-            label = "ADJ";
-
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
             //             ┃   RESET   ┃ BT CLEAR  ┃  OUT TOG  ┃           ┃           ┃   ┃           ┃    F7     ┃    F8     ┃    F9     ┃    F12    ┃
@@ -254,6 +251,15 @@
             //                                     ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
+            bindings = <
+        &trans        &trans    &trans     &trans     &trans    &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F12
+        &kp LEFT_GUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans    &trans           &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans        &trans    &trans     &trans     &trans    &trans           &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                &trans     &trans     &trans    &trans           &trans  &trans
+            >;
+        };
+
+        adj {
             bindings = <
         &trans      &kp C_MUTE  &kp C_VOL_DN    &kp C_VOLUME_UP  &bt BT_SEL 2    &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F12
         &trans      &trans      &kp C_BRI_DN    &kp C_BRI_UP     &bt BT_SEL 1    &trans           &kp F4  &kp F5  &kp F6  &kp F11
