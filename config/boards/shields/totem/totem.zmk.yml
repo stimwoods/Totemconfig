@@ -4,6 +4,7 @@ name: TOTEM
 type: shield
 url: https://github.com/GEIGEIGEIST/TOTEM
 requires: [seeeduino_xiao_ble]
+exposes: [i2c_oled]
 features:
   - keys
 siblings:
