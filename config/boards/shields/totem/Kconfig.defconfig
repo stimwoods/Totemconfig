@@ -12,6 +12,26 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_USB
     default y
 
+if ZMK_DISPLAY
+
+config I2C
+    default y
+
+config SSD1306
+    default y
+
+config ZMK_WIDGET_BATTERY_STATUS
+    default y
+ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE
+    default y
+ZMK_WIDGET_OUTPUT_STATUS
+    default y
+
+choice ZMK_DISPLAY_WORK_QUEUE
+    default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
+endchoice
+
+
 endif
 
 if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT || SHIELD_TOTEM_DONGLE
