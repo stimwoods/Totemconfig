@@ -22,6 +22,10 @@ config I2C
 config SSD1306
     default y
 
+endif # ZMK_DISPLAY
+
+if LVGL
+
 config LV_Z_VDB_SIZE
     default 64
 
@@ -31,7 +35,11 @@ config LV_DPI_DEF
 config LV_Z_BITS_PER_PIXEL
     default 1
 
-endif # ZMK_DISPLAY
+choice LV_COLOR_DEPTH
+    default LV_COLOR_DEPTH_1
+endchoice
+
+endif # LVGL
 
 if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT || SHIELD_TOTEM_DONGLE
 
