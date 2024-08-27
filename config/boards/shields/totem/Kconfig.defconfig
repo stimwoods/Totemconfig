@@ -31,10 +31,6 @@ config LV_DPI_DEF
 config LV_Z_BITS_PER_PIXEL
     default 1
 
-choice LV_COLOR_DEPTH
-    default LV_COLOR_DEPTH_1
-endchoice
-
 endif # ZMK_DISPLAY
 
 if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT || SHIELD_TOTEM_DONGLE
