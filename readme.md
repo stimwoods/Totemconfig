@@ -6,6 +6,10 @@
 
 # ZMK CONFIG FOR THE TOTEM SPLIT KEYBOARD
 
+## This repo uses mixed configs from:
+- [rain2813](https://github.com/rain2813/zmk-cygnus-oled) for all the display code and some dongle configurations
+- [eigatech](https://github.com/eigatech/zmk-config/tree/totem-dongle) for setting up the dongle
+
 [Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
 [Here](https://github.com/GEIGEIGEIST/qmk-config-totem) you can find the QMK config for the TOTEM.
 
