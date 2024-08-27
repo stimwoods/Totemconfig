@@ -1,11 +1,12 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: totem_left
+    shield: totem_left 
   - board: seeeduino_xiao_ble
     shield: totem_right
   - board: seeeduino_xiao_ble
-    shield: totem_dongle
+    shield: totem_dongle dongle_display
     snippet: zmk-usb-logging
+
 
   
 # there is no settingsreset (needed) for the XIAO
