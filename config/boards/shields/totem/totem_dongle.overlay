@@ -6,6 +6,12 @@
 
  #include "totem.dtsi"
 
+/ {
+	chosen {
+		zephyr,display = &ssd1306_ssd1306_128x64_spi;
+	};
+};
+
  &kscan0 {
      col-gpios
          = <&xiao_d 8 GPIO_ACTIVE_HIGH>
@@ -34,5 +40,5 @@
         com-invdir;
         inversion-on;
         prechargep = <0x22>;
-        };
+    };
 };
