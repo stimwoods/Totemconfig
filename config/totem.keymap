@@ -209,19 +209,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q              &kp W              &kp F               &kp P               &kp B                &kp J                 &kp L               &kp U               &kp Y              &kp APOS
-           &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G                &kp M                 &homerow_r RCTRL N  &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
-&kp LSHFT  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                 &kp H               &coma               &dot               &underscore        &kp RSHFT
-                                                 &layer_ht 5 ESCAPE  &layer_ht 3 TAB     &layer_ht 1 SPACE    &layer_ht_sk 2 LSHFT  &layer_ht 4 ENTER   &layer_ht 5 DELETE
+           &kp Q              &kp W              &kp F               &kp P               &kp B                &kp J                  &kp L               &kp U               &kp Y              &kp APOS
+           &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G                &kp M                  &homerow_r RCTRL N  &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
+&kp LSHFT  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                  &kp H               &coma               &dot               &underscore        &kp RSHFT
+                                                 &layer_ht 5 ESCAPE  &layer_ht 3 TAB     &layer_ht 1 SPACE    &layer_ht 2 BACKSPACE  &layer_ht 4 ENTER   &layer_ht 5 DELETE
             >;
         };
 
         nav {
             bindings = <
-        &kp N1     &kp N2     &kp N3     &kp N4     &kp N5        &kp N6         &kp N7     &kp N8     &kp N9     &kp N0
-        &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &caps_word    &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT  &kp BACKSPACE
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp CAPS      &kp HOME       &kp PG_DN  &kp PG_UP  &kp END    &kp MINUS      &trans
-                              &trans     &trans     &trans        &kp BACKSPACE  &trans     &trans
+        &kp N1     &kp N2     &kp N3     &kp N4     &kp N5        &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
+        &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &caps_word    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp BACKSPACE
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp CAPS      &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp MINUS      &trans
+                              &trans     &trans     &trans        &sk LSHFT  &trans     &trans
             >;
         };
 
