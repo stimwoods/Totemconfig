@@ -209,10 +209,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q              &kp W              &kp F               &kp P               &kp B                &kp J                  &kp L               &kp U               &kp Y              &kp APOS
-           &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G                &kp M                  &homerow_r RCTRL N  &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
-&kp LSHFT  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                  &kp H               &coma               &dot               &underscore        &kp ENTER
-                                                 &layer_ht 5 ESCAPE  &layer_ht 3 TAB     &layer_ht 1 SPACE    &layer_ht 2 BACKSPACE  &ht RSHFT ENTER     &layer_ht 4 DELETE
+         &kp Q              &kp W              &kp F               &kp P               &kp B                &kp J                  &kp L               &kp U               &kp Y              &kp UNDERSCORE
+         &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G                &kp M                  &homerow_r RCTRL N  &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
+&kp ESC  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                  &kp H               &coma               &dot               &underscore        &kp ENTER
+                                               &layer_ht 5 ESCAPE  &layer_ht 3 TAB     &layer_ht 1 SPACE    &layer_ht 2 BACKSPACE  &ht RSHFT ENTER     &layer_ht 4 DELETE
             >;
         };
 
@@ -229,7 +229,7 @@
             bindings = <
         &kp EXCLAMATION  &kp AT     &kp HASH      &kp DOLLAR     &kp PERCENT         &kp AMPS   &kp DOUBLE_QUOTES  &kp LBKT              &kp RBKT               &kp QUESTION
         &kp LESS_THAN    &kp MINUS  &kp PLUS      &kp EQUAL      &kp GREATER_THAN    &kp PIPE   &kp COLON          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON
-&trans  &kp CARET        &kp SLASH  &kp ASTERISK  &kp BACKSLASH  &trans              &kp TILDE  &kp SQT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &trans
+&trans  &kp CARET        &kp SLASH  &kp ASTERISK  &kp BACKSLASH  &kp UNDERSCORE      &kp TILDE  &kp SQT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &trans
                                     &trans        &trans         &trans              &trans     &trans             &trans
             >;
         };
