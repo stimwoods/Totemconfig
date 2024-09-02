@@ -24,7 +24,7 @@
     quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <200>;
 };
 
 / {
@@ -83,10 +83,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp Q       &kp W  &kp E        &kp R        &kp T        &kp Y    &kp U            &kp I        &kp O       &kp P
-              &mt LGUI A  &kp S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp H    &mt RSHFT J      &mt RCTRL K  &mt RALT L  &mt RGUI SEMICOLON
-&lt 2 ESCAPE  &kp Z       &kp X  &kp C        &kp V        &kp B        &kp N    &kp M            &kp COMMA    &kp DOT     &kp FSLH            &kp BSLH
-                                 &sk LCTRL    &lt 2 TAB    &kp SPACE    &kp RET  &lt 2 BACKSPACE  &kp LC(S)
+              &kp Q       &kp W           &kp E        &kp R        &kp T        &kp Y    &kp U            &kp I        &kp O       &kp P
+              &mt LGUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp H    &mt RSHFT J      &mt RCTRL K  &mt RALT L  &mt RGUI SEMICOLON
+&lt 2 ESCAPE  &kp Z       &kp X           &kp C        &kp V        &kp B        &kp N    &kp M            &kp COMMA    &kp DOT     &kp FSLH            &kp BSLH
+                                          &sk LCTRL    &lt 1 TAB    &kp SPACE    &kp RET  &lt 2 BACKSPACE  &kp LC(S)
             >;
         };
 
