@@ -145,10 +145,10 @@
 
         gamingnum {
             bindings = <
-        &kp F10  &kp N1  &kp N2  &kp N3  &kp T     &trans  &trans  &trans  &trans  &trans
-        &kp L    &kp N0  &kp Y   &kp K   &kp G     &trans  &trans  &trans  &trans  &trans
-&trans  &to 0    &kp N4  &kp N5  &kp N6  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                         &kp J   &kp I   &kp M     &trans  &trans  &trans
+        &kp F10  &kp N1  &kp N2  &kp N3  &kp T         &trans  &trans  &trans  &trans  &trans
+        &kp L    &kp N0  &kp Y   &kp K   &kp G         &trans  &trans  &trans  &trans  &trans
+&trans  &to 0    &kp N4  &kp N5  &kp N6  &kp ESCAPE    &trans  &trans  &trans  &trans  &trans  &trans
+                         &kp J   &kp I   &kp M         &trans  &trans  &trans
             >;
         };
     };
