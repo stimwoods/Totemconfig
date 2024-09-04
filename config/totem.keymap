@@ -95,7 +95,7 @@
         sym_num {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "symnum";
+            label = "SYM";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -129,18 +129,18 @@
                          &trans   &trans   &trans    &trans            &trans      &trans
             >;
 
-            label = "func";
+            label = "FUNC";
         };
 
         gaming {
             bindings = <
-       &kp TAB         &kp Q  &kp W      &kp R         &kp R        &trans  &trans  &trans  &trans  &trans
+       &kp TAB         &kp Q  &kp W      &kp E         &kp R        &trans  &trans  &trans  &trans  &trans
        &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F        &trans  &trans  &trans  &trans  &trans
 &sl 4  &kp Z           &kp X  &kp C      &kp G         &kp V        &trans  &trans  &trans  &trans  &trans  &trans
                               &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans
             >;
 
-            label = "gaming";
+            label = "GAME";
         };
 
         gamingnum {
@@ -150,6 +150,8 @@
 &trans  &to 0    &kp N4  &kp N5  &kp N6  &kp ESCAPE    &trans  &trans  &trans  &trans  &trans  &trans
                          &kp J   &kp I   &kp M         &trans  &trans  &trans
             >;
+
+            label = "GAM+";
         };
     };
 };
