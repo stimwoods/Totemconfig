@@ -1,3 +1,7 @@
+# zmk-config-totem-dongle
+
+ZMK Config for the TOTEM keyboard with 3rd dongle setup
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/docs/images/TOTEM_logo_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="/docs/images/TOTEM_logo_bright.svg">
@@ -11,10 +15,7 @@
 
 TOTEM is a 38 key column-staggered split keyboard running [ZMK](https://zmk.dev/) or [QMK](https://docs.qmk.fm/). It's meant to be used with a SEEED XIAO BLE or RP2040.
 
-
 ![TOTEM layout](/docs/images/TOTEM_layout.svg)
-
-
 
 ## HOW TO USE
 
