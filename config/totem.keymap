@@ -39,7 +39,7 @@
 
         combo_esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
         };
 
         combo_tab {
@@ -208,17 +208,17 @@
             bindings = <
          &kp Q              &kp W              &kp F               &kp P               &kp B                &kp J                  &kp L               &kp U               &kp Y              &kp UNDERSCORE
          &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G                &kp M                  &homerow_r RCTRL N  &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
-&kp ESC  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                  &kp H               &kp COMMA           &kp DOT            &kp BACKSLASH      &kp ENTER
+&kp ESC  &kp Z              &kp X              &kp C               &kp D               &kp V                &kp K                  &kp H               &kp COMMA           &kp DOT            &kp BACKSLASH      &kp MINUS
                                                &layer_ht 6 ESCAPE  &layer_ht 4 TAB     &layer_ht 2 SPACE    &layer_ht 3 BACKSPACE  &ht RSHFT ENTER     &layer_ht 5 DELETE
             >;
         };
 
         graphite {
             bindings = <
-         &kp B              &kp L              &kp D               &kp W               &kp Z                &kp UNDERSCORE         &kp F               &kp O               &kp U              &kp J
-         &homerow_l LGUI N  &homerow_l LALT R  &homerow_l LSHFT T  &homerow_l LCTRL S  &kp G                &kp Y                  &homerow_r RCTRL H  &homerow_r RSHFT A  &homerow_r RALT E  &homerow_r RGUI I
-&kp ESC  &kp Q              &kp X              &kp M               &kp C               &kp V                &kp K                  &kp P               &kp COMMA           &kp DOT            &kp BACKSLASH      &kp ENTER
-                                               &layer_ht 6 ESCAPE  &layer_ht 4 TAB     &layer_ht 2 SPACE    &layer_ht 3 BACKSPACE  &ht RSHFT ENTER     &layer_ht 5 DELETE
+        &kp B              &kp L              &kp D               &kp W               &kp Z                &kp UNDERSCORE         &kp F               &kp O               &kp U              &kp J
+        &homerow_l LGUI N  &homerow_l LALT R  &homerow_l LSHFT T  &homerow_l LCTRL S  &kp G                &kp Y                  &homerow_r RCTRL H  &homerow_r RSHFT A  &homerow_r RALT E  &homerow_r RGUI I
+&trans  &kp Q              &kp X              &kp M               &kp C               &kp V                &kp K                  &kp P               &kp COMMA           &kp DOT            &kp BACKSLASH      &trans
+                                              &layer_ht 6 ESCAPE  &layer_ht 4 TAB     &layer_ht 2 SPACE    &layer_ht 3 BACKSPACE  &ht RSHFT ENTER     &layer_ht 5 DELETE
             >;
         };
 
