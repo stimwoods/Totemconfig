@@ -225,7 +225,7 @@
 
         gaming-1 {
             bindings = <
-        &kp TAB    &kp Q  &kp E     &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
+        &kp TAB    &kp Q  &kp X     &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
         &kp LCTRL  &kp A  &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
 &trans  &kp LSHFT  &kp X  &kp S     &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
                           &kp LALT  &kp SPACE  &mo 3    &trans  &trans  &trans
