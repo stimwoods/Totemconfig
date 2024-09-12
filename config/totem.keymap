@@ -45,6 +45,7 @@
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+            layers = <0 1 4 5 6 7 8>;
         };
 
         combo_toggle_numpad {
@@ -224,19 +225,19 @@
 
         gaming-1 {
             bindings = <
-            &kp TAB    &kp Q  &kp E     &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
-            &kp LCTRL  &kp A  &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp LSHFT  &kp X  &kp S     &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
-                              &kp LALT  &kp SPACE  &mo 3    &trans  &trans  &trans
+        &kp TAB    &kp Q  &kp E     &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
+        &kp LCTRL  &kp A  &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
+&trans  &kp LSHFT  &kp X  &kp S     &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
+                          &kp LALT  &kp SPACE  &mo 3    &trans  &trans  &trans
             >;
         };
 
         gaming-2 {
             bindings = <
-        &trans  &kp N7  &kp N8  &kp N9  &kp T     &trans  &trans  &trans  &trans  &trans
-        &trans  &kp N4  &kp N5  &kp N6  &kp G     &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0  &kp N1  &kp N2  &kp N3  &kp B     &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &kp ESCAPE  &kp N7  &kp N8  &kp N9  &kp T     &trans  &trans  &trans  &trans  &trans
+        &trans      &kp N4  &kp N5  &kp N6  &kp G     &trans  &trans  &trans  &trans  &trans
+&trans  &kp N0      &kp N1  &kp N2  &kp N3  &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
