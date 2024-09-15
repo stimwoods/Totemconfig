@@ -53,7 +53,24 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <22 23>;
+        };
+
+        ppaste {
+            bindings = <&kp LC(V)>;
+            key-positions = <22 24>;
+        };
+
+        mark {
+            bindings = <&kp LC(A)>;
+            key-positions = <22 10>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -71,10 +88,10 @@
         Nav {
             label = "Nav";
             bindings = <
-              &kp TAB         &trans       &none         &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-              &kp LEFT_SHIFT  &kp LEFT     &kp UP_ARROW  &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp LEFT_ALT  &trans          &kp PAGE_UP  &kp DOWN      &kp PG_DN  &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
-                                           &trans        &trans     &trans      &trans    &trans        &kp NUMBER_0
+              &kp TAB         &trans     &none         &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+              &kp LEFT_SHIFT  &kp LEFT   &kp UP_ARROW  &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp LEFT_ALT  &trans          &kp MINUS  &kp DOWN      &kp PLUS   &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
+                                         &trans        &trans     &trans      &trans    &trans        &kp NUMBER_0
             >;
         };
 
@@ -82,8 +99,8 @@
             label = "Sym";
             bindings = <
         &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-        &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
-&trans  &trans    &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
+        &trans    &trans  &trans    &trans      &trans         &trans     &kp UNDER      &kp EQUAL        &trans   &trans
+&trans  &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &kp SLASH  &kp HOME
                           &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
