@@ -75,6 +75,11 @@
             bindings = <&kp LC(X)>;
             key-positions = <22 32>;
         };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <32 21>;
+        };
     };
 
     keymap {
