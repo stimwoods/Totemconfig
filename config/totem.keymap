@@ -207,10 +207,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp Q              &kp W              &kp F               &kp P               &kp B              &kp J      &kp L                  &kp U               &kp Y              &kp UNDERSCORE
-              &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G              &kp M      &homerow_r RCTRL N     &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
-&kp LEFT_GUI  &kp Z              &kp X              &kp C               &kp D               &kp V              &kp K      &kp H                  &kp COMMA           &kp DOT            &kp BACKSLASH      &kp MINUS
-                                                    &layer_ht 8 ESCAPE  &layer_ht 4 SPACE   &layer_ht 6 TAB    &sk RSHFT  &layer_ht 5 BACKSPACE  &layer_ht 7 DELETE
+              &kp Q              &kp W              &kp F               &kp P               &kp B              &kp J                &kp L                 &kp U               &kp Y              &kp UNDERSCORE
+              &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G              &kp M                &homerow_r RCTRL N    &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
+&kp LEFT_GUI  &kp Z              &kp X              &kp C               &kp D               &kp V              &kp K                &kp H                 &kp COMMA           &kp DOT            &kp BACKSLASH      &kp MINUS
+                                                    &layer_ht 8 ESCAPE  &layer_ht 4 SPACE   &layer_ht 6 TAB    &ht RSHFT BACKSPACE  &layer_ht_sk 5 LSHFT  &layer_ht 7 DELETE
             >;
         };
 
@@ -244,8 +244,8 @@
         nav {
             bindings = <
         &kp N1     &kp N2     &kp N3     &kp N4     &kp N5        &kp N6    &kp N7     &kp N8     &kp N9     &kp N0
-        &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &caps_word    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp ENTER
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp CAPS      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans     &trans
+        &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &caps_word    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp BACKSPACE
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp CAPS      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans         &trans
                               &trans     &trans     &trans        &trans    &trans     &trans
             >;
         };
