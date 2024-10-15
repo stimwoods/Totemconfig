@@ -3,4 +3,8 @@ include:
     shield: totem_left
   - board: seeeduino_xiao_ble
     shield: totem_right
-# there is no settingsreset (needed) for the XIAO
+  - board: seeeduino_xiao_ble
+    shield: totem_dongle
+    snippet: zmk-usb-logging
+  - board: seeduino_xiao_ble
+    snippet: settings_reset
