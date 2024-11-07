@@ -150,7 +150,7 @@
             label = "deadlock";
             bindings = <
                 &kp C       &kp NUMBER_1  &mt E NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans
-                &kp LSHIFT  &kp A         &kp W           &kp D         &mt G F         &trans  &trans  &trans  &trans  &trans
+                &kp LSHIFT  &kp A         &kp W           &kp D         &kp G           &trans  &trans  &trans  &trans  &trans
 &mt TAB ESCAPE  &kp LCTRL   &kp Q         &kp S           &mt R V       &trans          &trans  &trans  &trans  &trans  &trans  &to 0
                                           &kp LCTRL       &kp LEFT_ALT  &trans          &trans  &trans  &trans
             >;
