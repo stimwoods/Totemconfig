@@ -45,7 +45,7 @@
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
-            layers = <0 1 4 5 6 7 8>;
+            layers = <0 3 1 2 6 7 8>;
         };
 
         combo_toggle_numpad {
@@ -56,7 +56,7 @@
         combo_tab_left {
             bindings = <&kp LC(PG_UP)>;
             key-positions = <27 28>;
-            layers = <4>;
+            layers = <1>;
         };
 
         combo_tab_right {
@@ -207,37 +207,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp Q              &kp W              &kp F               &kp P               &kp B              &kp J      &kp L                  &kp U               &kp Y              &kp BACKSPACE
-              &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G              &kp M      &homerow_r RCTRL N     &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
-&kp LEFT_GUI  &kp Z              &kp X              &kp C               &kp D               &kp V              &kp K      &kp H                  &kp COMMA           &kp DOT            &kp BACKSLASH      &kp ENTER
-                                                    &layer_ht 8 ESCAPE  &layer_ht 4 SPACE   &layer_ht 6 TAB    &kp RSHFT  &layer_ht 5 BACKSPACE  &layer_ht 7 DELETE
-            >;
-        };
-
-        graphite {
-            bindings = <
-        &kp B              &kp L              &kp D               &kp W               &kp Z     &kp UNDERSCORE  &kp F               &kp O               &kp U              &kp J
-        &homerow_l LGUI N  &homerow_l LALT R  &homerow_l LSHFT T  &homerow_l LCTRL S  &kp G     &kp Y           &homerow_r RCTRL H  &homerow_r RSHFT A  &homerow_r RALT E  &homerow_r RGUI I
-&trans  &kp Q              &kp X              &kp M               &kp C               &kp V     &kp K           &kp P               &kp COMMA           &kp DOT            &kp BACKSLASH      &trans
-                                              &trans              &trans              &trans    &trans          &trans              &trans
-            >;
-        };
-
-        gaming-1 {
-            bindings = <
-        &kp TAB    &kp Q  &kp X     &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
-        &kp LCTRL  &kp A  &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
-&trans  &kp LSHFT  &kp Z  &kp S     &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
-                          &kp LALT  &kp SPACE  &mo 3    &trans  &trans  &trans
-            >;
-        };
-
-        gaming-2 {
-            bindings = <
-        &kp ESCAPE  &kp N7  &kp N8  &kp N9  &kp T     &trans  &trans  &trans  &trans  &trans
-        &trans      &kp N4  &kp N5  &kp N6  &kp G     &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0      &kp N1  &kp N2  &kp N3  &kp B     &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans  &trans  &trans    &trans  &trans  &trans
+              &kp Q              &kp W              &kp F               &kp P               &kp B              &kp J            &kp L                  &kp U               &kp Y              &kp BACKSPACE
+              &homerow_l LGUI A  &homerow_l LALT R  &homerow_l LSHFT S  &homerow_l LCTRL T  &kp G              &kp M            &homerow_r RCTRL N     &homerow_r RSHFT E  &homerow_r RALT I  &homerow_r RGUI O
+&kp LEFT_GUI  &kp Z              &kp X              &kp C               &kp D               &kp V              &kp K            &kp H                  &kp COMMA           &kp DOT            &kp UNDERSCORE     &kp ENTER
+                                                    &layer_ht 8 ESCAPE  &layer_ht 1 SPACE   &layer_ht 6 TAB    &ht RSHFT ENTER  &layer_ht 2 BACKSPACE  &layer_ht 7 DELETE
             >;
         };
 
@@ -259,12 +232,39 @@
             >;
         };
 
+        graphite {
+            bindings = <
+        &kp B              &kp L              &kp D               &kp W               &kp Z     &kp UNDERSCORE  &kp F               &kp O               &kp U              &kp J
+        &homerow_l LGUI N  &homerow_l LALT R  &homerow_l LSHFT T  &homerow_l LCTRL S  &kp G     &kp Y           &homerow_r RCTRL H  &homerow_r RSHFT A  &homerow_r RALT E  &homerow_r RGUI I
+&trans  &kp Q              &kp X              &kp M               &kp C               &kp V     &kp K           &kp P               &kp COMMA           &kp DOT            &kp BACKSLASH      &trans
+                                              &trans              &trans              &trans    &trans          &trans              &trans
+            >;
+        };
+
+        gaming-1 {
+            bindings = <
+        &kp TAB    &kp Q  &kp X     &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
+        &kp LCTRL  &kp A  &kp W     &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
+&trans  &kp LSHFT  &kp Z  &kp S     &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &trans
+                          &kp LALT  &kp SPACE  &mo 5    &trans  &trans  &trans
+            >;
+        };
+
+        gaming-2 {
+            bindings = <
+        &kp ESCAPE  &kp N7  &kp N8  &kp N9  &kp T     &trans  &trans  &trans  &trans  &trans
+        &trans      &kp N4  &kp N5  &kp N6  &kp G     &trans  &trans  &trans  &trans  &trans
+&trans  &kp N0      &kp N1  &kp N2  &kp N3  &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
         num {
             bindings = <
-        &trans  &trans  &trans     &trans     &kp KP_NUM    &kp MINUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
-        &trans  &trans  &trans     &trans     &trans        &kp TAB        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RET
-&trans  &trans  &trans  &kp MINUS  &kp UNDER  &trans        &kp FSLH       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK  &trans
-                        &trans     &trans     &trans        &kp BACKSPACE  &kp KP_N0        &kp DOT
+        &trans  &trans  &trans     &trans     &kp KP_NUM    &kp MINUS   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
+        &trans  &trans  &trans     &trans     &trans        &kp PERIOD  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_N0
+&trans  &trans  &trans  &kp MINUS  &kp UNDER  &trans        &kp FSLH    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK  &trans
+                        &trans     &trans     &trans        &trans      &trans           &trans
             >;
         };
 
@@ -282,7 +282,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &to 0         &to 1     &to 2      &trans     &trans    &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F12
+        &to 0         &to 3     &to 4      &trans     &trans    &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F12
         &kp LEFT_GUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans    &trans           &kp F4  &kp F5  &kp F6  &kp F11
 &trans  &trans        &trans    &trans     &trans     &trans    &trans           &kp F1  &kp F2  &kp F3  &kp F10  &soft_off
                                 &trans     &trans     &trans    &trans           &trans  &trans
