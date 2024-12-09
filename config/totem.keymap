@@ -97,6 +97,16 @@
             bindings = <&kp DELETE>;
             key-positions = <8 9>;
         };
+
+        sk_rshift {
+            bindings = <&sk RSHFT>;
+            key-positions = <16 17>;
+        };
+
+        sk_lsft {
+            bindings = <&sk LSHFT>;
+            key-positions = <12 13>;
+        };
     };
 
     behaviors {
