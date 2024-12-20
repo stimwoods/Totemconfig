@@ -39,7 +39,7 @@
             combo_1 {
                 timeout-ms = <50>;
                 key-positions = <0 10>;
-                bindings = <&kp 1>;
+                bindings = <&kp N1>;
             }
     };
 
