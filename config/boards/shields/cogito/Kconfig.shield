@@ -4,5 +4,5 @@
 config SHIELD_COGITO_LEFT
     def_bool $(shields_list_contains,cogito_left)
 
-config SHIELD_TOTEM_RIGHT
+config SHIELD_COGITO_RIGHT
     def_bool $(shields_list_contains,cogito_right)
