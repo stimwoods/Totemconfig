@@ -1,0 +1,11 @@
+file_format: "1"
+id: cogito
+name: COGITO ERGO SUM
+type: shield
+url: https://github.com/steel-wing/cogito
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - cogito_left
+  - cogito_right

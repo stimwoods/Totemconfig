@@ -1,9 +1,7 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: totem_left
+    shield: cogito_left
   - board: seeeduino_xiao_ble
-    shield: totem_right
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
+    shield: cogito_right
     
 # there is no settingsreset (needed) for the XIAO
